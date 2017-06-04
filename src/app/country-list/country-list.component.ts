@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 import { AppDataService } from '../services/app-data.service';
-import { Country } from '../view-models/Country';
+//import { Country } from '../view-models/Country';
 
 @Component({
   selector: 'app-country-list',
@@ -11,9 +11,9 @@ import { Country } from '../view-models/Country';
 })
 export class CountryListComponent implements OnInit {
 
-  allCountries: Array<Country>;
+  allCountries: Array<any>;
   count = 0;
-  countries: Array<Country>;
+  countries: Array<any>;
 
   constructor(private dataService: AppDataService,
               private route: ActivatedRoute) { 
