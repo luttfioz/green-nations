@@ -9,9 +9,6 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
-    //"preinstall": "npm install -g @angular/cli@latest && npm install --save @angular/compiler-cli",
-    //"postinstall": "ng build",
-    //"deploy": "git push origin master && git push heroku master"
   },
   "private": true,
   "dependencies": {
